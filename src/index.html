@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700;800;900&display=swap" rel="stylesheet">
+  <title>New ES6/SCSS Project</title>
+</head>
+<body>
+  <header></header>
+  <main>
+    <section id="title-section" tabindex="0">
+      <h1>Find Your Dream Vehicle</h1>
+      <p>Have you been dreaming about getting a new vehicle? Well, you're in luck.</p>
+    </section>
+    <section id="vehicle-section" tabindex="0">
+      <h2 class="sr-only">Vehicle Information</h2>
+      <form class="vehicle-form">
+        <section id="vehicle-year-section">
+          <h2>Year</h2>
+          <label class="select-label" for="year">Year</label>
+          <select id="year" name="year" required>
+            <option value="0">Vehicle Year</option>
+          </select>
+        </section>
+        <section id="vehicle-make-section" class="divider disabled">
+          <h2>Make</h2>
+          <label class="select-label" for="make">Make</label>
+          <select id="make" name="make" required disabled>
+            <option value="0">Vehicle Make</option>
+          </select>
+        </section>
+        <section id="vehicle-model-section" class="disabled">
+          <h2>Model</h2>
+          <label class="select-label" for="model">Model</label>
+          <select id="model" name="model" required disabled>
+            <option value="0">Select model</option>
+          </select>
+        </section>
+      </form>
+    </section>
+  </main>
+  <footer></footer>
+  <script src="bundle.js"></script>
+</body>
+</html>
